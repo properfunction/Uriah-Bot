@@ -2,7 +2,6 @@ require('dotenv').config();
 const axios = require('axios')
 const { Client, IntentsBitField } = require('discord.js');
 
-
 const client = new Client({
     intents: [
         IntentsBitField.Flags.Guilds,
@@ -38,4 +37,5 @@ client.on('messageCreate', async message => {
     }
 });
 
+// Make sure to include the .env file in .gitignore and be careful with zipfiles!
 client.login(process.env.TOKEN);
