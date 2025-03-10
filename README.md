@@ -1,4 +1,4 @@
-# My Awesome Project
+# Uriah-Bot
 
 Discord Bot for friendly interactions including message responses and random quotes of wisdom
 
